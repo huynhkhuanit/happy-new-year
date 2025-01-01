@@ -8,6 +8,8 @@ const audioSource = document.getElementById('audio-source');
 const typingTexts = document.querySelectorAll('.typing-text');
 const contentContainer = document.querySelector('.container');
 
+contentContainer.style.display = 'none';
+
 const audioFiles = [
   "./assets/audio/fireworks-sound-effect-2.mp3",
   "./assets/audio/fireworks-sound-effect-2.mp3"
